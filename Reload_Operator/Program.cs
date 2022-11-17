@@ -32,7 +32,7 @@ namespace Reload_Operator
             this.points = points;
         }
 
-        public static DancerPoints operator +(DancerPoints x, DancerPoints y)
+        public static DancerPoints operator+ (DancerPoints x, DancerPoints y)
         {
             string names = x.name + " & " + y.name;
             int allPoints = x.points + y.points;
